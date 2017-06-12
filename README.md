@@ -1,22 +1,9 @@
 
-### Getting Started
+### Client side authentication
+To install dependencies, need to run npm install first.
 
-There are two methods for getting started with this repo.
+## Introduction
+This application used react, react thunk to build client side authentication.
+Used localStorage to store the token received from server, and for each restricted access, authentication will be required. 
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+If request is to fecth data from serverside, i composed header with that token included.
